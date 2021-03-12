@@ -1,0 +1,10 @@
+.sortable tr {
+    cursor: pointer;
+}
+tr:hover {
+    background-color: #DCDCDC;
+}
+
+tr:hover td {
+    background-color: transparent; /* or #000 */
+}
