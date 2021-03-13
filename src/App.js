@@ -11,15 +11,17 @@ import EditContact from './component/contact/EditContact'
 
 
 
+
 function App() {
   return (
     
     <Provider store={store}>
      <Router>
+      
      <div className="App">
       
-       <Navbar /> 
-      
+        <Navbar /> 
+        
       
       <div className="container">
            <div className="py-3">

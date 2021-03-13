@@ -18,7 +18,7 @@ import {useDispatch} from 'react-redux'
                                 </div>
             </td>
             
-              <td><Avatar className="mr-2" name={contact.name} size="45" round={true}  />  {name}</td>
+              <td  className="nametop"><Avatar className="mr-2" name={contact.name} size="45" round={true}  /> {name}  <p id="my">{email}</p> </td>
               <td>{contact.email}</td>
               <td>{contact.phone}</td>
               <td className="action">

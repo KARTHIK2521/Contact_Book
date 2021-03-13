@@ -8,3 +8,8 @@ tr:hover {
 tr:hover td {
     background-color: transparent; /* or #000 */
 }
+#my{
+   margin-left: 4rem;
+   margin-top: -1rem;
+  color:#beb2b2;  
+}
